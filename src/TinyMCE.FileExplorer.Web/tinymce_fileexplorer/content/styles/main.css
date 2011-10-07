@@ -1,0 +1,314 @@
+﻿/*************** BEGIN:	RESET ***************/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+body
+{
+	font: normal normal normal 11px Verdana, Tahoma, Arial;
+}
+/*************** END:	RESET ***************/
+
+/*************** BEGIN:	AFTER ***************/
+div.controls-container:after,
+div.controls-container ul:after,
+table.tablescroll_foot tfoot tr td:after
+{
+	clear: both;
+	content: "";
+	display: block;
+	visibility: hidden;
+}
+/*************** END:	AFTER ***************/
+
+div.controls-container a
+{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-attachment: scroll;
+	background-color: #2293F7;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 1px solid #6FB6F6;
+	border-radius: 4px;
+	color: #FFF;
+	display: block;
+	height: 16px;
+	margin: 0 auto;
+	padding: 5px;
+	text-decoration: none;
+	text-indent: -999999px;
+	width: 16px;
+}
+
+div.controls-container a:hover
+{
+	background-color: #3FA1F8;
+}
+
+div.controls-container a.expand-all
+{
+	background-image: url('../images/expand.png');
+}
+
+div.controls-container a.collapse-all
+{
+	background-image: url('../images/collapse.png');
+}
+
+div.controls-container a.toggle
+{
+	background-image: url('../images/toggle.png');
+}
+
+div.controls-container a.refresh
+{
+	background-image: url('../images/refresh.png');
+}
+
+div.controls-container a.upload-files
+{
+	background-image: url('../images/file_upload.png');
+}
+
+div.controls-container a.delete-folder
+{
+	background-image: url('../images/folder_delete.png');
+}
+
+div.controls-container a.new-folder
+{
+	background-image: url('../images/folder_add.png');
+}
+
+div.controls-container ul
+{
+	padding: 7px 0;
+}
+
+div.controls-container ul,
+div.controls-container ul li
+{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+div.controls-container ul:first-child,
+div.controls-container ul li:first-child
+{
+	margin-left: 0;
+}
+
+div.controls-container div.search
+{
+	float: right;
+	padding: 1px 0;
+}
+
+div.controls-container div.search label
+{
+	color: #FFF;
+	display: block;
+	margin-bottom: 2px;
+}
+
+div.controls-container div.search input
+{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #6FB6F6;
+	border-radius: 4px;
+	padding: 4px;
+	width: 300px;
+}
+
+div.ui-background
+{
+	background: #1484E6 url('../images/ui-bg_diagonals-thick_22_1484e6_40x40.png') repeat scroll left top;
+}
+
+div.ui-layout-west
+{
+	background-color: #DDD;
+}
+
+div.ui-layout-west,
+div.ui-layout-center
+{
+	padding: 0;
+}
+
+/*************** BEGIN:	TREEVIEW ***************/
+ul.treeview
+{
+	background-color: #DDD;
+}
+
+ul.treeview span.folder
+{
+	-moz-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	background: #AAA url('../images/folder.png') no-repeat scroll 8px center;
+	border-bottom: 1px solid #FFF;
+	clear: both;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+	padding: 10px 0 10px 32px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+ul.treeview span.folder:hover
+{
+	background-color: #6FB6F6;
+	color: #FFF;
+}
+
+ul.treeview span.striped
+{
+	background-color: #BBB;
+}
+
+ul.treeview span.normal
+{
+	background-color: #CCC;
+}
+
+ul.treeview li ul
+{
+	
+}
+/*************** END:	TREEVIEW ***************/
+
+p.selected-folder-location
+{
+	-moz-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	clear: both;
+	color: #FFF;
+	display: block;
+	font: normal normal bold 16px Verdana, Tahoma, Arial;
+	overflow: hidden;
+	padding: 4px 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+div.archive-view-container
+{
+	overflow: auto;
+	width: 100%;
+}
+
+table.archive-view
+{
+	border: none;
+	border-collapse: collapse;
+}
+
+table.archive-view tr td
+{
+	padding: 5px;
+}
+
+table.archive-view thead tr,
+table.archive-view tfoot tr
+{
+	background-color: #888;
+}
+
+table.archive-view thead tr td,
+table.archive-view tfoot tr td
+{
+	color: #FFF;
+}
+
+table.archive-view thead tr td
+{
+	font-weight: bold;
+}
+
+table.archive-view tr td.name
+{
+	width: 150px;
+}
+
+table.archive-view tr td.size
+{
+	width: 75px;
+}
+
+table.archive-view tr td.date-created
+{
+	width: 100px;
+}
+
+table.archive-view tbody tr td.date-created
+{
+	text-align: center;
+}
+
+table.archive-view tr td.preview,
+table.archive-view tr td.download,
+table.archive-view tr td.select,
+table.archive-view tr td.delete
+{
+	width: 70px;
+}
+
+table.archive-view tbody tr td a
+{
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 16px;
+	margin: 0 auto;
+	text-indent: -999999px;
+	width: 16px;
+}
+
+table.archive-view tbody tr td a.preview
+{
+	background-image: url('../images/preview.png');
+}
+
+table.archive-view tbody tr td a.download
+{
+	background-image: url('../images/download.png');
+}
+
+table.archive-view tbody tr td a.select
+{
+	background-image: url('../images/select.png');
+}
+
+table.archive-view tbody tr td a.delete
+{
+	background-image: url('../images/delete.png');
+}
+
+table.archive-view tfoot tr td span,
+table.archive-view tfoot tr td strong
+{
+	display: block;
+	float: left;
+	padding: 3px 0;
+}
+
+table.archive-view tfoot tr td span
+{
+	margin-right: 10px;
+}

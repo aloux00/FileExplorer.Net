@@ -1,0 +1,8 @@
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\bin\TinyMCE.FileExplorer.Web.dll
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\bin\TinyMCE.FileExplorer.Web.pdb
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\obj\Debug\TinyMCE.FileExplorer.Web.Core.Resources.Views.Messages.resources
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\obj\Debug\TinyMCE.FileExplorer.Web.dll
+C:\dev\particular\dotnet\TinyMCEFileExplorer\src\TinyMCE.FileExplorer.Web\obj\Debug\TinyMCE.FileExplorer.Web.pdb
